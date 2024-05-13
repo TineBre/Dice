@@ -6,8 +6,9 @@
 body{
     margin: 0;
     padding: 0;	
-    /*background-image: linear-gradient(160deg, rgb(0, 93, 28) 10%, rgb(0, 159, 48) 80%);*/
-    background-color: #3e8e41;
+    background-image: url('../images/background2.jpg');
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
 }
 
 #game{
@@ -15,7 +16,7 @@ body{
     top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(103, 224, 143, 0.95);
+    background-color: #017828;
     width: 600px;
     height: 300px;
     display: flex;
@@ -23,7 +24,7 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: 8px solid black;
+    border: 8px solid #014016;
 	border-radius: 25px;
 }
 #game:before {

@@ -6,10 +6,10 @@ session_start();
 <html>
 
 <head>
-    <link rel="stylesheet" href="CSS/rezultati.css">
+    <link rel="stylesheet" href="css/rezultati.css">
     <title>Dice</title>
     <script src="js/rezultati.js"></script>
-    <link rel="icon" type="image/x-icon" href="images/diceV2.png">
+    <link rel="icon" type="image/x-icon" href="images/dice.png">
 </head>
 
 <body>
@@ -38,10 +38,10 @@ session_start();
         ?>
         <span id="timer"></span>
     </div>
-    <img id="diceLeva" src="images/DiceV2.png" alt="diceLeva">
+    <img id="diceLeva" src="images/Dice.png" alt="diceLeva">
 
     <div class="diceDesno">
-        <img id="diceDesno" src="images/DiceV2.png" alt="diceDesna">
+        <img id="diceDesno" src="images/Dice.png" alt="diceDesna">
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>

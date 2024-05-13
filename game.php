@@ -8,12 +8,12 @@ session_start();
     <link rel="stylesheet" href="CSS/game.css" />
     <title>Dice</title>
     <script src="js/game.js"></script>
-    <link rel="icon" type="image/x-icon" href="images/diceV2.png">
+    <link rel="icon" type="image/x-icon" href="images/dice.png">
 </head>
 <body>
     
         <h1>GAME</h1>
-        <input type="hidden" id="numPlayers" value="<?php echo $_SESSION['numPlayers']; ?>">
+        <input type="hidden" id="numPlayers" value="<?php echo $_SESSION['numPlayers']; ?>"
     <?php
     $_SESSION["players"] = array();
     $_SESSION["stKock"] = $_POST['stkock'];
@@ -61,10 +61,10 @@ session_start();
             ?>
         </div>
     </div>
-    <img id="diceLeva" src="images/DiceV2.png" alt="diceLeva">
+    <img id="diceLeva" src="images/Dice.png" alt="diceLeva">
 
     <div class="diceDesno">
-        <img id="diceDesno" src="images/DiceV2.png" alt="diceDesna">
+        <img id="diceDesno" src="images/Dice.png" alt="diceDesna">
     </div>
     
 </body>

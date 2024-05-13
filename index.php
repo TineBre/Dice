@@ -3,15 +3,15 @@
 
 <head>
     <title>Dice</title>
-    <link rel="stylesheet" href="CSS/styles.css">
-    <link rel="icon" type="image/x-icon" href="images/diceV2.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="images/dice.png">
     <script src="js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
 
-    <h1>DICE GAME</h1>
+    <h1>DICE RULETE</h1>
 
     <div id="game">
         <form action="game.php" name="forma" method="post">
@@ -24,11 +24,11 @@
                     <option value="2">2</option>
                     <option value="3">3</option>
                     <option value="4">4</option>
-                    <option value="5">5</option> <!-- Add this line for 5 players -->
+                    <option value="5">5</option>
                 </select>
             </div>
             <div id="playerFields">
-                <!-- Player name fields will be dynamically generated here -->
+                
             </div>
             <div id="izbira">
                 NUMBER OF DICE
@@ -37,9 +37,6 @@
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
                 </select>
                 <br />
                 <input type="submit" class="gumb" onClick="return isEmpty()" name="igraj" value="PLAY" />
@@ -47,10 +44,10 @@
         </form>
     </div>
 
-    <img id="diceLeva" src="images/DiceV2.png" alt="diceLeva">
+    <img id="diceLeva" src="images/Dice.png" alt="diceLeva">
 
     <div class="diceDesno">
-        <img id="diceDesno" src="images/DiceV2.png" alt="diceDesna">
+        <img id="diceDesno" src="images/Dice.png" alt="diceDesna">
     </div>
 
 </body>
