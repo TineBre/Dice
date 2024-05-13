@@ -5,7 +5,7 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="CSS/game.css" />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Dice</title>
     <script src="js/game.js"></script>
     <link rel="icon" type="image/x-icon" href="images/dice.png">
