@@ -11,7 +11,7 @@
 
 <body>
 
-    <h1>DICE RULETE</h1>
+    <h1>DICE</h1>
 
     <div id="game">
         <form action="game.php" name="forma" method="post">

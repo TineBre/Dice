@@ -6,7 +6,7 @@ session_start();
 <html>
 
 <head>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/rezultati.css" />
     <title>Dice</title>
     <script src="js/rezultati.js"></script>
     <link rel="icon" type="image/x-icon" href="images/dice.png">
